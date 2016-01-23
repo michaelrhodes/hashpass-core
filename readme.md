@@ -23,6 +23,15 @@ console.log(pass)
 => 'IKyjrP/CCKfu6MD4'
 ```
 
+### Page weight
+
+| compression             |     size |
+| :---------------------- | -------: |
+| hashpass-core.js        | 12.05 kB |
+| hashpass-core.min.js    |   4.7 kB |
+| hashpass-core.min.js.gz |  1.92 kB |
+
+
 ## License
 
 MIT
