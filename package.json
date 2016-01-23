@@ -1,0 +1,30 @@
+{
+  "name": "hashpass-core",
+  "version": "0.0.0",
+  "description": "a lightweight implementation of the hashpass password generator",
+  "main": "index.js",
+  "dependencies": {
+    "sjcl-hash-sha256": "~1.0.0",
+    "sjcl-codec-base64": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~4.4.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/hashpass-core"
+  },
+  "keywords": [
+    "hashpass",
+    "sha256"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/hashpass-core/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/hashpass-core"
+}
